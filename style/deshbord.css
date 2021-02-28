@@ -1,0 +1,59 @@
+.lefthearder {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    margin-top: 50px;
+    border: 1px solid #ffffff36;
+    height: 95vh;
+    width: 300px;
+}
+
+.lefthearder .itam {
+    margin-top: 30px;
+    padding: 20px;
+    border-bottom: 1px solid #ffffff55;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.lefthearder .itam:hover {
+    box-shadow: 2px 2px 4px #2b2f33,
+        -2px -2px 4px #43474d;
+}
+
+.lefthearder .active {
+    background-color: #4f5c694d;
+    box-shadow: 5px 5px 10px #2b2f33,
+        -5px -5px 10px #43474d;
+}
+
+.techarSelection {
+    width: 60vw;
+    padding: 20px;
+    position: absolute;
+    top: 70px;
+    right: 80px;
+}
+
+.techarSelection .button {
+    width: 90px;
+    margin: 0 auto;
+}
+
+.techarSelection .selectionDiv {
+    width: 300px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.techarSelection select {
+    margin-left: 30px;
+}
+
+.selectionContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
